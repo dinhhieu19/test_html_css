@@ -1,0 +1,237 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .floor_item{
+        margin-right: 15px;
+        margin-bottom: 13px;
+    }
+    
+    .elevator{
+        min-width: 162px;
+    }
+
+    .building{
+        font-size: 15px;
+    }
+
+    legend{
+        padding: 0px 10px;
+    }
+
+    .floor_list{
+        margin-left: -10px;
+        margin-right: -50px;
+        margin-bottom: 0px;
+    }
+
+    .floor--present{
+        left: 0;
+        bottom: 70px;
+    }
+
+    .building{
+        padding-left: 7px;
+    }
+
+    .building::after{
+        padding-right: 3px;
+        
+    }
+
+    .contact-item{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .main-left__body-bottom{
+        margin-top: 0px;
+    }
+
+    .main-left__header{
+        margin-bottom: -10px;
+    }
+
+    .name_project{
+        margin-top: 5px;
+    }
+
+    .font-size-s{
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 427px) and (max-width: 768px) {
+    .main{
+        overflow: hidden;
+    }
+
+    .arrow-pull{
+        display: block;
+        transition: all 0.3s linear;
+
+    }
+
+    .main-left{
+        top: 0;
+        bottom: 0;
+        background-color: #fff;
+        position: fixed;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+        z-index: 9999999;
+    }
+
+    .input-check:checked ~ .main-left{
+        transform: none;
+    }
+
+    .input-check:checked + label > .arrow-pull{
+        left: 365px;
+        transition: all 0.3s linear;
+    }
+
+    .floor_item{
+        margin-right: 15px;
+        margin-bottom: 13px;
+    }
+    
+    .elevator{
+        min-width: 162px;
+    }
+
+    .building{
+        font-size: 15px;
+    }
+
+    legend{
+        padding: 0px 10px;
+    }
+
+    .floor_list{
+        margin-left: -10px;
+        margin-right: -50px;
+        margin-bottom: 0px;
+    }
+
+    .floor--present{
+        left: 0;
+        bottom: 70px;
+    }
+
+    .building{
+        padding-left: 7px;
+    }
+
+    .building::after{
+        padding-right: 3px;
+        
+    }
+
+    .contact-item{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .main-left__body-bottom{
+        margin-top: 0px;
+    }
+
+    .main-left__header{
+        /* margin-bottom: -10px; */
+    }
+
+    .name_project{
+        margin-top: 5px;
+    }
+
+    .font-size-s{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .main{
+        overflow: hidden;
+    }
+
+    .arrow-pull{
+        display: block;
+        transition: all 0.3s linear;
+
+    }
+
+    .main-left{
+        top: 0;
+        bottom: 0;
+        background-color: #fff;
+        position: fixed;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+        z-index: 9999999;
+    }
+
+    .input-check:checked ~ .main-left{
+        transform: none;
+    }
+
+    .input-check:checked + label > .arrow-pull{
+        left: 365px;
+        transition: all 0.3s linear;
+    }
+
+    .floor_item{
+        margin-right: 15px;
+        margin-bottom: 13px;
+    }
+    
+    .elevator{
+        min-width: 162px;
+    }
+
+    .building{
+        font-size: 15px;
+    }
+
+    legend{
+        padding: 0px 10px;
+    }
+
+    .floor_list{
+        margin-left: -10px;
+        margin-right: -50px;
+        margin-bottom: 0px;
+    }
+
+    .floor--present{
+        left: 0;
+        bottom: 70px;
+    }
+
+    .building{
+        padding-left: 7px;
+    }
+
+    .building::after{
+        padding-right: 3px;
+        
+    }
+
+    .contact-item{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .main-left__body-bottom{
+        margin-top: 0px;
+    }
+
+    .main-left__header{
+        /* margin-bottom: -10px; */
+    }
+
+    .name_project{
+        margin-top: 5px;
+    }
+
+    .font-size-s{
+        font-size: 15px;
+    }
+}
